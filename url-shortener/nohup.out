@@ -1,3 +1,0 @@
-error: listen tcp 127.0.0.1:8080: bind: address already in use
-Starting to serve on 127.0.0.1:8070
-error: listen tcp 127.0.0.1:8070: bind: address already in use
