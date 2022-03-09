@@ -1,0 +1,179 @@
+2021-11-11 12:57:37.861  WARN 56826 --- [main] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-11-11 12:57:42.948  INFO 56826 --- [main] c.aravind.rest.UrlShorteningApplication  : Starting UrlShorteningApplication using Java 1.8.0_311 on Aravinds-MacBook-Pro.local with PID 56826 (/Users/aravind.n/Documents/personal_projects/url-shortener/build/classes/java/main started by aravind.n in /Users/aravind.n/Documents/personal_projects/url-shortener)
+2021-11-11 12:57:42.954  INFO 56826 --- [main] c.aravind.rest.UrlShorteningApplication  : No active profile set, falling back to default profiles: default
+2021-11-11 12:57:44.900  INFO 56826 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-11 12:57:44.911  INFO 56826 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-11 12:57:44.912  INFO 56826 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-11 12:57:44.968  INFO 56826 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-11 12:57:44.968  INFO 56826 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1925 ms
+2021-11-11 12:57:45.402 DEBUG 56826 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-11 12:57:45.493 DEBUG 56826 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-11-11 12:57:45.518 DEBUG 56826 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-11 12:57:45.527 DEBUG 56826 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-11 12:57:45.834  INFO 56826 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-11-11 12:57:45.903  INFO 56826 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-11 12:57:45.925  INFO 56826 --- [main] c.aravind.rest.UrlShorteningApplication  : Started UrlShorteningApplication in 23.816 seconds (JVM running for 24.365)
+2021-11-11 12:59:00.676  INFO 56826 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-11 12:59:00.679  INFO 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-11 12:59:00.681 DEBUG 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-11-11 12:59:00.681 DEBUG 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-11-11 12:59:00.681 DEBUG 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-11-11 12:59:00.691 DEBUG 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@25b8a5a2
+2021-11-11 12:59:00.694 DEBUG 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@776f69d6
+2021-11-11 12:59:00.694 DEBUG 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-11-11 12:59:00.694  INFO 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2021-11-11 12:59:00.715 DEBUG 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 12:59:00.853 DEBUG 56826 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 12:59:00.901 DEBUG 56826 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@371b0727]
+2021-11-11 12:59:00.946 DEBUG 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 12:59:01.049 DEBUG 56826 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2021-11-11 12:59:01.063 DEBUG 56826 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-11-11 12:59:01.074 DEBUG 56826 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-11-11 12:59:01.075 DEBUG 56826 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-11-11 12:59:01.084 DEBUG 56826 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-11-11 12:59:01.092 DEBUG 56826 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-11-11 12:59:01.134 DEBUG 56826 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-11 12:59:01.136 DEBUG 56826 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Nov 11 12:59:01 IST 2021, status=404, error=Not Found, message=, path=/favicon.ico}]
+2021-11-11 12:59:01.197 DEBUG 56826 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-11-11 12:59:09.469 DEBUG 56826 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 12:59:09.546 DEBUG 56826 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 12:59:09.547 DEBUG 56826 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@6f4774af]
+2021-11-11 12:59:09.567 DEBUG 56826 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 13:07:23.085 DEBUG 56826 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 13:07:23.260 DEBUG 56826 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 13:07:23.261 DEBUG 56826 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@2a2ab142]
+2021-11-11 13:07:23.272 DEBUG 56826 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 15:50:35.655 DEBUG 56826 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 15:50:36.021 DEBUG 56826 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 15:50:36.024 DEBUG 56826 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@6906feab]
+2021-11-11 15:50:36.068 DEBUG 56826 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 15:51:17.384 DEBUG 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 15:51:17.439 DEBUG 56826 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 15:51:17.440 DEBUG 56826 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@469900da]
+2021-11-11 15:51:17.447 DEBUG 56826 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:05:55.991 DEBUG 56826 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:05:56.174 DEBUG 56826 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:05:56.176 DEBUG 56826 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@78e19f96]
+2021-11-11 16:05:56.188 DEBUG 56826 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:07:12.910 DEBUG 56826 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:07:12.994 DEBUG 56826 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:07:12.995 DEBUG 56826 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@75c0e4e6]
+2021-11-11 16:07:13.003 DEBUG 56826 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:13:13.547 DEBUG 56826 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:13:13.852 DEBUG 56826 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:13:13.852 DEBUG 56826 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@6d842dc2]
+2021-11-11 16:13:13.870 DEBUG 56826 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:13:17.522 DEBUG 56826 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:13:17.593 DEBUG 56826 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:13:17.595 DEBUG 56826 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@2e1520df]
+2021-11-11 16:13:17.605 DEBUG 56826 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:14:31.285 DEBUG 56826 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:14:31.395 DEBUG 56826 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:14:31.399 DEBUG 56826 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@19d91853]
+2021-11-11 16:14:31.406 DEBUG 56826 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:16:48.084 DEBUG 56826 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:16:48.196 DEBUG 56826 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:16:48.197 DEBUG 56826 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@1549de7d]
+2021-11-11 16:16:48.201 DEBUG 56826 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:18:25.006 DEBUG 56826 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:18:25.048 DEBUG 56826 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:18:25.048 DEBUG 56826 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@53f47b34]
+2021-11-11 16:18:25.055 DEBUG 56826 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:19:25.505  WARN 63546 --- [main] o.s.boot.StartupInfoLogger               : InetAddress.getLocalHost().getHostName() took 5008 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-11-11 16:19:30.535  INFO 63546 --- [main] c.aravind.rest.UrlShorteningApplication  : Starting UrlShorteningApplication using Java 1.8.0_311 on Aravinds-MacBook-Pro.local with PID 63546 (/Users/aravind.n/Documents/personal_projects/url-shortener/build/classes/java/main started by aravind.n in /Users/aravind.n/Documents/personal_projects/url-shortener)
+2021-11-11 16:19:30.540  INFO 63546 --- [main] c.aravind.rest.UrlShorteningApplication  : No active profile set, falling back to default profiles: default
+2021-11-11 16:19:32.282  INFO 63546 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-11 16:19:32.298  INFO 63546 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-11 16:19:32.298  INFO 63546 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-11-11 16:19:32.346  INFO 63546 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-11 16:19:32.346  INFO 63546 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1681 ms
+2021-11-11 16:19:32.789 DEBUG 63546 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-11 16:19:32.863 DEBUG 63546 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2021-11-11 16:19:32.898 DEBUG 63546 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-11 16:19:32.911 DEBUG 63546 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-11 16:19:33.187  INFO 63546 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-11-11 16:19:33.282  INFO 63546 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-11 16:19:33.305  INFO 63546 --- [main] c.aravind.rest.UrlShorteningApplication  : Started UrlShorteningApplication in 23.566 seconds (JVM running for 24.238)
+2021-11-11 16:20:56.247  INFO 63546 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-11 16:20:56.250  INFO 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-11 16:20:56.251 DEBUG 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-11-11 16:20:56.252 DEBUG 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-11-11 16:20:56.252 DEBUG 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-11-11 16:20:56.266 DEBUG 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@48cf8254
+2021-11-11 16:20:56.270 DEBUG 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@15d82bb6
+2021-11-11 16:20:56.271 DEBUG 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-11-11 16:20:56.271  INFO 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2021-11-11 16:20:56.287 DEBUG 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:20:56.363 DEBUG 63546 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:20:56.399 DEBUG 63546 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@6e4f6620]
+2021-11-11 16:20:56.432 DEBUG 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:26:25.624 DEBUG 63546 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:26:25.825 DEBUG 63546 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:26:25.825 DEBUG 63546 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@c0aa177]
+2021-11-11 16:26:25.849 DEBUG 63546 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:30:44.305 DEBUG 63546 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:30:44.390 DEBUG 63546 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:30:44.390 DEBUG 63546 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@29d9b1f6]
+2021-11-11 16:30:44.397 DEBUG 63546 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:32:05.528 DEBUG 63546 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:32:05.605 DEBUG 63546 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:32:05.609 DEBUG 63546 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@2651ff23]
+2021-11-11 16:32:05.637 DEBUG 63546 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:33:52.780 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:33:52.825 DEBUG 63546 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:33:52.826 DEBUG 63546 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@515fa105]
+2021-11-11 16:33:52.829 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:34:42.068 DEBUG 63546 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:34:42.149 DEBUG 63546 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:34:42.150 DEBUG 63546 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@7dd2a8f2]
+2021-11-11 16:34:42.156 DEBUG 63546 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:43:05.741 DEBUG 63546 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:43:05.950 DEBUG 63546 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:43:05.950 DEBUG 63546 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@7ce16cb6]
+2021-11-11 16:43:05.957 DEBUG 63546 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:51:20.597 DEBUG 63546 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:51:20.690 DEBUG 63546 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:51:20.696 DEBUG 63546 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@1385bfef]
+2021-11-11 16:51:20.701 DEBUG 63546 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 16:52:11.167 DEBUG 63546 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 16:52:11.230 DEBUG 63546 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 16:52:11.231 DEBUG 63546 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@2de63015]
+2021-11-11 16:52:11.233 DEBUG 63546 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 17:03:51.462 DEBUG 63546 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 17:03:51.603 DEBUG 63546 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 17:03:51.603 DEBUG 63546 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@56419184]
+2021-11-11 17:03:51.607 DEBUG 63546 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 17:03:53.941 DEBUG 63546 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 17:03:54.015 DEBUG 63546 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 17:03:54.016 DEBUG 63546 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@514c79ea]
+2021-11-11 17:03:54.023 DEBUG 63546 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 17:03:56.372 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 17:03:56.448 DEBUG 63546 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 17:03:56.450 DEBUG 63546 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@55603ff6]
+2021-11-11 17:03:56.458 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 17:07:46.978 DEBUG 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 17:07:47.053 DEBUG 63546 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 17:07:47.059 DEBUG 63546 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@7aff7508]
+2021-11-11 17:07:47.067 DEBUG 63546 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 17:07:47.143 DEBUG 63546 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2021-11-11 17:07:47.198 DEBUG 63546 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-11-11 17:07:47.237 DEBUG 63546 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-11-11 17:07:47.237 DEBUG 63546 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-11-11 17:07:47.274 DEBUG 63546 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-11-11 17:07:47.281 DEBUG 63546 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-11-11 17:07:47.338 DEBUG 63546 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-11 17:07:47.344 DEBUG 63546 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Nov 11 17:07:47 IST 2021, status=404, error=Not Found, message=, path=/favicon.ico}]
+2021-11-11 17:07:47.423 DEBUG 63546 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-11-11 17:19:19.907 DEBUG 63546 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/actuator/threaddump", parameters={}
+2021-11-11 17:19:20.063 DEBUG 63546 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/vnd.spring-boot.actuator.v3+json', given [*/*] and supported [application/vnd.spring-boot.actuator.v3+json, application/vnd.spring-boot.actuator.v2+json, application/json]
+2021-11-11 17:19:20.066 DEBUG 63546 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [org.springframework.boot.actuate.management.ThreadDumpEndpoint$ThreadDumpDescriptor@3d7400c7]
+2021-11-11 17:19:20.080 DEBUG 63546 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-11 23:45:47.506 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2021-11-11 23:45:47.727 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-11-11 23:45:47.965 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-11-11 23:45:47.975 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-11-11 23:45:48.047 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-11-11 23:45:48.085 DEBUG 63546 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-11-11 23:45:48.195 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-11 23:45:48.212 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Nov 11 23:45:48 IST 2021, status=404, error=Not Found, message=, path=/favicon.ico}]
+2021-11-11 23:45:48.282 DEBUG 63546 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404

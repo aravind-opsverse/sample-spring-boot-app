@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: url-shortener-v1
+  name: url-shortener-v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: url-shortener-v1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: url-shortener-v1
+    spec:
+      containers:
+      - image: aravindns121/url-shortener-v1
+        name: url-shortener-v1
+        resources: {}
+status: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: url-shortener-v1
+  name: url-shortener-v1
+spec:
+  ports:
+  - name: 8080-8080
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: url-shortener-v1
+  type: ClusterIP
+status:
+  loadBalancer: {}
